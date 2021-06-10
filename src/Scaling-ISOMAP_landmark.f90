@@ -396,7 +396,6 @@ Write(*,*) '[FOR](MDS_ISOMAP) coord_ISOMAP*A1 ',sum_time
     end do
     sum_time = secnds(start_time)
 Write(*,*) '[FOR](MDS_ISOMAP) transpose coord_ISOMAP ',sum_time
-write(*,*)'TEST-2',coord_ISOMAP_trans(1,1:4)
 
 
     if(cal_stress==0) then

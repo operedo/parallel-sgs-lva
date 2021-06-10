@@ -7,7 +7,6 @@ module boostdijkstra
     include "boostdijkstra_cdef.f90"
 
 contains ! Implementation of the functions. We just wrap the C function here.
-
     subroutine dijkstra(n,a,b,c,d,e,f,g)
         implicit none
         integer(C_INT), intent(in) :: n
